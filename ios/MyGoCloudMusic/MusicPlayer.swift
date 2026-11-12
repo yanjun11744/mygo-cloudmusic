@@ -1,6 +1,7 @@
 import AVFoundation
 import Foundation
 import MediaPlayer
+import UIKit
 
 @MainActor
 final class MusicPlayer: ObservableObject {
