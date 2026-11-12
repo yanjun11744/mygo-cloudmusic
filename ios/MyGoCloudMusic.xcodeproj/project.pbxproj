@@ -174,7 +174,7 @@
    buildSettings = {
     PRODUCT_BUNDLE_IDENTIFIER = "com.yanjun11744.MyGoCloudMusic";
     PRODUCT_NAME = "$(TARGET_NAME)";
-    GENERATE_INFOPLIST_FILE = YES;
+    GENERATE_INFOPLIST_FILE = NO;\n    INFOPLIST_FILE = MyGoCloudMusic/Info.plist;
     INFOPLIST_KEY_CFBundleDisplayName = "MyGo CloudMusic";
     INFOPLIST_KEY_UIBackgroundModes = audio;
     INFOPLIST_KEY_NSLocalNetworkUsageDescription = "访问局域网内的私人音乐服务器";
@@ -192,7 +192,7 @@
    buildSettings = {
     PRODUCT_BUNDLE_IDENTIFIER = "com.yanjun11744.MyGoCloudMusic";
     PRODUCT_NAME = "$(TARGET_NAME)";
-    GENERATE_INFOPLIST_FILE = YES;
+    GENERATE_INFOPLIST_FILE = NO;\n    INFOPLIST_FILE = MyGoCloudMusic/Info.plist;
     INFOPLIST_KEY_CFBundleDisplayName = "MyGo CloudMusic";
     INFOPLIST_KEY_UIBackgroundModes = audio;
     INFOPLIST_KEY_NSLocalNetworkUsageDescription = "访问局域网内的私人音乐服务器";
