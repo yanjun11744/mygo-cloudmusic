@@ -272,8 +272,8 @@ struct MusicContentView: View {
                             }
                         } else if !store.tracks.isEmpty {
                             LazyVStack(spacing: 1) {
-                                ForEach(Array(store.tracks.enumerated()), id: \.element.id) { i, track in
-                                    MusicTrackRow(track: track, number: i + 1)
+                                ForEach(store.tracks.indices, id: \.self) { i in
+                                    MusicTrackRow(track: store.tracks[i], number: i + 1)
                                 }
                             }
                         } else {
